@@ -1,0 +1,94 @@
+body {
+	
+	background-color: white;
+}
+
+.textview{
+  display: inline-block;
+	margin: 8px;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+   
+    background-color: white;
+	
+	border: none;
+}
+
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height:91px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 4px;
+	width: 42px;
+	height: 42px;
+	font-size: 10px;
+	/* font-weight: bold; */
+	border-radius: 2px;
+	outline: none;
+  
+}
+
+
+
+.allclearButton {
+  border-radius: 10px;
+	color: black;
+    margin: 2px;
+	width: 42px;
+	height: 42px;
+	text-shadow: -1px -1px 0px #44006F;
+	
+}
+
+h1{
+	color:#F1620B;
+	font-size: 52px;
+    text-justify: newspaper;
+    text-align: center;
+
+}
+.container{
+		background: grey;
+		background-size: 100px 80px; 
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
+#calc-history {
+    float: right;
+    width: 200px;
+    height: 270px;
+    background-color: #636363;
+    border-radius: 5px;
+    margin-top: 6px;
+    padding: 10px;
+    box-shadow: 0px 5px 10px #444444 inset;
+  }
+  
+  #calc-history-box {
+    width: 100px !important;
+    height: 200px !important;
+    resize: none;
+    overflow: hidden;
+  }
+  
+  #calc-history hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
